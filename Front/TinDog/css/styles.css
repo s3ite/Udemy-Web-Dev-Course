@@ -1,0 +1,166 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* big-heading */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+/* Title Section */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.container-iphone {
+  position: absolute;
+}
+/* Download Button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.img-iphone {
+  max-width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Section two */
+/* features */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat-light"
+    margin-bottom: 20px;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press-section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-elt {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA-Section */
+#cta {
+}
+
+/* Footer-Section */
+#footer {
+  padding-bottom: 2rem;
+}
+
+.social-media-icon {
+  margin: 3rem 1rem 1rem;
+}

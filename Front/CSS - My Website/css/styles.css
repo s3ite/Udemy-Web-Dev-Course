@@ -1,0 +1,116 @@
+h1{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.5rem;
+  margin-top: 50px;
+  color: #66BFBF;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Bitter', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+}
+
+a{
+  color : #11999E;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+hr{
+border-style: none;
+border-top-style: dotted;
+width: 30px;
+border-width: 5px;
+color: #EAF6F6;
+margin-bottom: 60px;
+}
+
+.top-container{
+
+  padding: 100px;
+  background-color: #E4F5F9;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.intro{
+  width: 30%;
+
+  margin: 0 auto 30px auto;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  text-align: center;
+  margin-top: 40px;
+  padding: 40px 0;
+}
+
+.french{
+  text-transform: capitalize;
+}
+
+.cloud-top{
+  position:relative;
+  left: 200px;
+}
+.cloud-bottom{
+position: absolute;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.chillies-image{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+
+.copyright{
+  color:#EAF6F6;
+  font-size: 75%;
+  padding: 10px 0;
+}
+
+
+.btn{
+  color:white;
+  border-radius: 8px;
+  padding: 5px;
+  background: linear-gradient(#11cdd4, #11999e);
+}
+
+.btn:hover{
+  color:white;
+  border-radius: 8;
+  background: linear-gradient(#30e3cb, #2bc4ad);
+}
