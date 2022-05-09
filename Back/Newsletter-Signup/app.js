@@ -8,7 +8,8 @@ const app = express()
 app.use(bodyParser.urlencoded({
   extended: true
 }))
-//Using static files
+
+//Using static files (css and images)
 app.use(express.static("public"))
 
 app.listen(3000, function() {

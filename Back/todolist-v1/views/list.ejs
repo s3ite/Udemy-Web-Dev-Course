@@ -8,6 +8,21 @@
 
 <body>
   <h1>Today is <%= day %>!</h1>
+
+  <ul>
+    <% for(var i = 0; i < listItem.length; i++) { %>
+    <li>
+      <%= listItem[i] %>
+    </li>
+
+    <%  } %>
+
+  </ul>
+
+  <form action="/" method="post">
+    <input type="text" name="newItem" placeholder="Enter your new item">
+    <button type="submit">Add</button>
+  </form>
 </body>
 
 </html>
